@@ -10,7 +10,7 @@ const Projects = () => {
         <p className="uppercase font-semibold tracking-widest text-[#004aad] text-lg">
           Projects
         </p>
-        <h2 className="py-4">What I've Built</h2>
+        <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
             title="Netflix-UI"

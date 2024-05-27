@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
@@ -10,10 +11,10 @@ const Main = () => {
       <div className="flex justify-center items-center w-full h-full max-w-[1240px] mx-auto p-2">
         <div>
           <p className="uppercase tracking-widest text-sm text-gray-500">
-            Let's create great things together!
+            Let&apos;s create great things together!
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi I'm <span className="text-[#004aad]">Senyo</span>
+            Hi I&apos;m <span className="text-[#004aad]">Senyo</span>
           </h1>
           <h1 className="py-2 text-gray-700">
             <TypeAnimation
@@ -49,16 +50,16 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <a href="/#contact">
+            <Link href="/#contact">
               <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer ease-in duration-300 hover:scale-110">
                 <AiOutlineMail />
               </div>
-            </a>
-            <a href="/#about">
+            </Link>
+            <Link href="/#about">
               <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer ease-in duration-300 hover:scale-110">
                 <BsPersonLinesFill />
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
