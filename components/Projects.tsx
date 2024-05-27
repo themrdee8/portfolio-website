@@ -2,6 +2,7 @@ import React from "react";
 import netflixUI from "@/public/assets/projects/netflixUI2.png";
 import quote from "@/public/assets/projects/quote2.png";
 import ProjectItems from "./ProjectItems";
+import noa from "@/public/assets/projects/noa-theta.jpg";
 
 const Projects = () => {
   return (
@@ -21,6 +22,11 @@ const Projects = () => {
             title="Quote Machine"
             bgImage={quote}
             projectUrl="/quoteMachine"
+          />
+          <ProjectItems
+            title="Noa Theta"
+            bgImage={noa}
+            projectUrl="/noaTheta"
           />
         </div>
       </div>
