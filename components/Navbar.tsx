@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import logo from "../public/assets/logo.png";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -114,7 +113,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's create great things together!
+                Let&apos;s create great things together!
               </p>
             </div>
           </div>
@@ -148,7 +147,7 @@ const Navbar = () => {
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#004aad] font-bold">
-                Let's work together
+                Let&apos;s work together
               </p>
               <div className="flex justify-between items-center w-full sm:w-[80%] my-4">
                 <a href="https://www.linkedin.com/in/senyo-dedoo/">
