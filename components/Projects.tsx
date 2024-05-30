@@ -3,6 +3,7 @@ import netflixUI from "@/public/assets/projects/netflixUI2.png";
 import quote from "@/public/assets/projects/quote2.png";
 import ProjectItems from "./ProjectItems";
 import noa from "@/public/assets/projects/noa-theta.jpg";
+import nellieUIImg from "@/public/assets/projects/nellie.png";
 
 const Projects = () => {
   return (
@@ -24,9 +25,14 @@ const Projects = () => {
             projectUrl="/quoteMachine"
           />
           <ProjectItems
-            title="Noa Theta"
+            title="AI-Saas (Noa Theta)"
             bgImage={noa}
             projectUrl="/noaTheta"
+          />
+          <ProjectItems
+            title="Jewellery Website"
+            bgImage={nellieUIImg}
+            projectUrl="/nellieOfficial"
           />
         </div>
       </div>
