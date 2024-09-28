@@ -37,7 +37,12 @@ const Main = () => {
             />
           </h1>
           <p className="py-3 text-gray-600 max-w-[70%] m-auto">
-            Introductory Description
+            I am an aspiring software developer with a passion for creating
+            seamless and intuitive user experiences. While I specialize in
+            front-end development, I also have some experience working on
+            back-end systems. As I continue to grow my skill set, I aim
+            to build responsive, high-performance applications that bridge the
+            gap between design and functionality.
           </p>
           <div className="flex items-center justify-between py-4 max-w-[330px] m-auto">
             <a href="https://www.linkedin.com/in/senyo-dedoo/">

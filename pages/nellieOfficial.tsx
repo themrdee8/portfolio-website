@@ -36,8 +36,12 @@ const nellieOfficial = () => {
             of handcrafted pieces, perfect for elevating any ensemble. Discover
             timeless elegance and unique designs tailored for every occasion.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href="https://main--nellie-official.netlify.app">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/themrdee8/nellie-official">
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 p-4 rounded-xl">
           <div className="p-2">
