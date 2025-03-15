@@ -1,5 +1,5 @@
 import React from "react";
-import me from "@/public/assets/me.jpeg";
+import me3 from "@/public/assets/me3.jpeg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -34,7 +34,7 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-full m-auto shadow-gray-400 shadow-xl rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image src={me} alt="me" className="rounded-xl" />
+          <Image src={me3} alt="me" className="rounded-xl" />
         </div>
       </div>
     </div>
